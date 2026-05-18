@@ -1,0 +1,13 @@
+{
+  "format": "gutenberg",
+  "version": "1.0",
+  "exportedAt": "2026-05-18T15:49:21.410Z",
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "type": "page"
+    }
+  ],
+  "templateCount": 1
+}

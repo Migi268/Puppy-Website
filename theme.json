@@ -1,0 +1,297 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "position": {
+      "sticky": true
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#6E00FF",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#00D1FF",
+          "name": "Secondary"
+        },
+        {
+          "slug": "background",
+          "color": "#0A0A10",
+          "name": "Background"
+        },
+        {
+          "slug": "foreground",
+          "color": "#E0E0E0",
+          "name": "Foreground"
+        },
+        {
+          "slug": "heading",
+          "color": "#FFFFFF",
+          "name": "Heading"
+        },
+        {
+          "slug": "link",
+          "color": "#6E00FF",
+          "name": "Link"
+        },
+        {
+          "slug": "button-bg",
+          "color": "#6E00FF",
+          "name": "Button Background"
+        },
+        {
+          "slug": "button-secondary-bg",
+          "color": "transparent",
+          "name": "Button Secondary"
+        }
+      ],
+      "custom": true,
+      "customGradient": true,
+      "link": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Source Sans 3, sans-serif",
+          "slug": "body",
+          "name": "Body"
+        },
+        {
+          "fontFamily": "Source Serif 4, sans-serif",
+          "slug": "heading",
+          "name": "Heading"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "0.875rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "1.25rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "1.5rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "xx-large",
+          "size": "2rem",
+          "name": "Huge"
+        }
+      ],
+      "customFontSize": true,
+      "lineHeight": true,
+      "letterSpacing": true,
+      "fontWeight": true
+    },
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "%",
+        "vh",
+        "vw"
+      ],
+      "padding": true,
+      "margin": true,
+      "blockGap": true
+    },
+    "blocks": {
+      "core/navigation": {
+        "typography": {
+          "fontSize": true,
+          "fontWeight": true
+        }
+      },
+      "core/button": {
+        "color": {
+          "custom": true
+        }
+      },
+      "core/site-logo": {
+        "color": {
+          "background": true
+        }
+      }
+    }
+  },
+  "styles": {
+    "css": "",
+    "color": {
+      "background": "#0A0A10",
+      "text": "#E0E0E0"
+    },
+    "typography": {
+      "fontFamily": "Source Sans 3, sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "Source Serif 4, sans-serif",
+          "fontWeight": "600"
+        },
+        "color": {
+          "text": "#FFFFFF"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "2.5rem",
+          "fontWeight": "700"
+        },
+        "color": {
+          "text": "#FFFFFF"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(3rem, 5vw, 4.5rem)",
+          "fontWeight": "700"
+        },
+        "color": {
+          "text": "#FFFFFF"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "1.5rem",
+          "fontWeight": "600"
+        },
+        "color": {
+          "text": "#FFFFFF"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "1.25rem",
+          "fontWeight": "600"
+        },
+        "color": {
+          "text": "#FFFFFF"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "#6E00FF"
+        },
+        ":hover": {
+          "color": {
+            "text": "#6E00FF"
+          },
+          "typography": {
+            "textDecoration": "underline"
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "background": "#6E00FF",
+          "text": "#ffffff"
+        },
+        "typography": {
+          "fontWeight": "600",
+          "textDecoration": "none"
+        },
+        "border": {
+          "radius": "4px",
+          "width": "0px"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "#6E00FF",
+          "text": "#ffffff"
+        },
+        "border": {
+          "width": "0px"
+        }
+      },
+      "core/template-part": {
+        "spacing": {
+          "blockGap": "0",
+          "margin": {
+            "top": "0",
+            "bottom": "0"
+          }
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "#FFFFFF"
+        }
+      },
+      "core/columns": {
+        "spacing": {
+          "blockGap": "2rem"
+        }
+      },
+      "core/group": {
+        "spacing": {
+          "blockGap": "0"
+        }
+      },
+      "core/navigation": {
+        "spacing": {
+          "blockGap": "1.5rem"
+        },
+        "typography": {
+          "fontSize": "1rem",
+          "fontWeight": "500"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "blank",
+      "title": "Blank",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "full-width",
+      "title": "Full Width",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    }
+  ]
+}
